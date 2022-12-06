@@ -1,0 +1,2 @@
+gold: #AE8A49
+red: #7E0D0D
