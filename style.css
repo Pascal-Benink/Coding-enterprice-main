@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     min-height: 100vh;
+    position: relative;
 }
 .nav-logo {
     height: 10vh;
@@ -46,9 +47,6 @@ nav ul {
 header {
     min-height: 6.8vh;
 }
-main {
-    min-height: 74.6vh;
-}
 .out {
     color: red;
     text-align: center;
@@ -69,6 +67,8 @@ footer {
     align-items: center;
     padding: 0rem 5rem;
     width: 100vw;
+    position: absolute;
+    bottom: 0vh;
 }
 footer img {
     height: 10vh;
@@ -88,6 +88,9 @@ h2 {
 }
 h1 {
     font-size: 3rem;
+}
+p {
+    font-size: 1.4rem;
 }
 iframe {
     width: 30vw;
