@@ -67,8 +67,6 @@ footer {
     align-items: center;
     padding: 0rem 5rem;
     width: 100vw;
-    position: absolute;
-    bottom: 0vh;
 }
 footer img {
     height: 10vh;
@@ -95,8 +93,16 @@ p {
 iframe {
     width: 30vw;
 }
-.album {
+.albums {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-evenly;
+}
+.album {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vw;
+}
+iframe {
+    border-radius: 12px;
 }
